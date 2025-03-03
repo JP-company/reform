@@ -158,7 +158,7 @@ def apply_excel_styling(worksheet):
         prev_sigungu = current_sigungu
     
     # 컬럼 너비 조정
-    for col, width in zip('ABCDEF', [15, 15, 20, 15, 15, 15]):
+    for col, width in zip('ABCDEF', [15, 15, 22, 15, 15, 15]):
         worksheet.column_dimensions[col].width = width
 
 def main():
